@@ -15,6 +15,9 @@ class App extends React.Component {
                 Basic CRUD To Do
                 <br/>
                 To Do: <input type="text" value = {this.state.currentInput}></input>
+                <br/>
+                <br/>
+                Current To Dos:
             </div>
         )
     }
